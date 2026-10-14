@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Алуа — визитка</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Приоритет тәжірибесі: ішкі CSS -->
+    <style>
+        #priority-test {
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="main-title">
+        <h1>Алуа — студент</h1>
+        <p>Менің жеке визиткам</p>
+    </header>
+
+    <main>
+        <section class="card">
+            <h2>Мен туралы</h2>
+            <p>
+                Менің атым Алуа. Мен университетте оқимын.
+                Бағдарламалау мен жаңа технологияларға қызығамын.
+            </p>
+        </section>
+
+        <section class="card">
+            <h2>Менің хоббиім</h2>
+            <ul>
+                <li>Фотосурет түсіру</li>
+                <li>Актерлік өнер</li>
+                <li>Жүзу</li>
+                <li>Бағдарламалау</li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <h2>Менің дағдыларым</h2>
+            <table>
+                <tr>
+                    <th>Дағды</th>
+                    <th>Деңгей</th>
+                </tr>
+                <tr>
+                    <td>HTML және CSS</td>
+                    <td>Бастапқы</td>
+                </tr>
+                <tr>
+                    <td>Фотография</td>
+                    <td>Тәжірибем бар</td>
+                </tr>
+            </table>
+        </section>
+
+        <section class="card">
+            <h2>CSS приоритетін тексеру</h2>
+
+            <p id="priority-test" style="color: red;">
+                Қай түс жеңеді: қызыл, жасыл әлде көк?
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Алуа. Менің визиткам.</p>
+        <a href="#main-title">Жоғарыға қайту</a>
+    </footer>
+</body>
+</html>

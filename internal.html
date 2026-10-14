@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Алуа — визитка</title>
+
+    <style>
+        /* 1. Тег селекторы */
+        body {
+            margin: 0;
+            padding: 30px;
+            background-color: #f4f0ff;
+            font-family: Arial, sans-serif;
+            color: #30264a;
+        }
+
+        /* 2. Класс селекторы */
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 12px;
+        }
+
+        /* 3. ID селекторы */
+        #main-title {
+            background-color: #6c4ab6;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            border-radius: 15px;
+        }
+
+        /* 4. Ұрпақ (descendant) селекторы */
+        main h2 {
+            color: #6c4ab6;
+        }
+
+        /* Тізім стилі */
+        ul {
+            line-height: 2;
+        }
+
+        /* Кесте стилі */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+        }
+
+        th, td {
+            padding: 12px;
+            border: 1px solid #cbbbe8;
+        }
+
+        th {
+            background-color: #e9ddff;
+        }
+
+        /* 5. Псевдокласс */
+        a:hover {
+            color: #e05297;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #6c4ab6;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="main-title">
+        <h1>Алуа — студент</h1>
+        <p>Менің жеке визиткам</p>
+    </header>
+
+    <main>
+        <section class="card">
+            <h2>Мен туралы</h2>
+            <p>
+                Менің атым Алуа. Мен университетте оқимын.
+                Бағдарламалау мен жаңа технологияларға қызығамын.
+            </p>
+        </section>
+
+        <section class="card">
+            <h2>Менің хоббиім</h2>
+            <ul>
+                <li>Фотосурет түсіру</li>
+                <li>Актерлік өнер</li>
+                <li>Жүзу</li>
+                <li>Бағдарламалау</li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <h2>Менің дағдыларым</h2>
+            <table>
+                <tr>
+                    <th>Дағды</th>
+                    <th>Деңгей</th>
+                </tr>
+                <tr>
+                    <td>HTML және CSS</td>
+                    <td>Бастапқы</td>
+                </tr>
+                <tr>
+                    <td>Фотография</td>
+                    <td>Тәжірибем бар</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Алуа. Менің визиткам.</p>
+        <a href="#main-title">Жоғарыға қайту</a>
+    </footer>
+</body>
+</html>

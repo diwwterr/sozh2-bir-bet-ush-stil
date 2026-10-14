@@ -1,0 +1,67 @@
+/* 1. Тег селекторы */
+body {
+    margin: 0;
+    padding: 30px;
+    background-color: #f4f0ff;
+    font-family: Arial, sans-serif;
+    color: #30264a;
+}
+
+/* 2. Класс селекторы */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+}
+
+/* 3. ID селекторы */
+#main-title {
+    background-color: #6c4ab6;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+/* 4. Ұрпақ селекторы */
+main h2 {
+    color: #6c4ab6;
+}
+
+/* Тізім */
+ul {
+    line-height: 2;
+}
+
+/* Кесте */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #cbbbe8;
+}
+
+th {
+    background-color: #e9ddff;
+}
+
+/* 5. Псевдокласс */
+a:hover {
+    color: #e05297;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #6c4ab6;
+}
+
+/* Приоритет тәжірибесі: сыртқы CSS */
+#priority-test {
+    color: blue;
+}
